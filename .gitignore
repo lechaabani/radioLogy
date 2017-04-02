@@ -1,0 +1,16 @@
+/var/cache/dev/*
+/var/cache/prod/*
+/var/logs/*
+!var/cache/dev/.gitkeep
+!var/cache/prod/.gitkeep
+!var/logs/.gitkeep
+/app/phpunit.xml
+/composer.phar
+web/KVS/.idea/
+.idea/
+.sass-cache/
+web/*
+vendor
+web/bundles
+*.cache
+parameters.yml
